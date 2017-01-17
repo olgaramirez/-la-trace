@@ -1,0 +1,176 @@
+/*
+.crt{
+	background-image:url(../img/carte.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:0;  
+}
+*/
+
+#map {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 30px;
+/*    padding-left: 10px;*/
+}
+
+.container {
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.btn-acc {
+    margin: 0 auto;
+    background-color: #443333;
+    color: #FEFBA3;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+
+.btn-vrt {
+    background-color: #93A71D;
+    color: #FEFBA3;
+}
+
+.mn {
+    background-color: #443333;
+    color: #FEFBA3;
+}
+
+.acc {
+    background-color: #93A71D;
+}
+
+.btn-primary {
+    color: #FEFBA3;
+    background-color: #443333;
+    border-color: #443333;
+}
+
+.btn-primary:focus,
+.btn-primary:focus,
+.bouton-filtre:focus {
+    color: #fff;
+    background-color: #443333;
+    border-color: #382B2B;
+}
+
+.bouton-filtre:hover, .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.choix {
+    color: #443333;
+}
+
+.anm_chiox_titre {
+    color: #443333;
+}
+
+.btm {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.btm h5 {
+    color: #443333;
+}
+
+.rnd {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #443333;
+    border-color: #443333;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ad {
+    padding:5px;
+    background-color: #fff;
+}
+
+.anm_v1 {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.anm_v2 {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+}
+
+.anm_v3 {
+    position: absolute;
+    top: 480px;
+    left: 130px;
+}
+
+.brn {
+    color: #443333;
+}
+
+
+/*Nav et média query*/
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.filtre {
+/*    background-color: #443333;*/
+    padding:5px;
+    font-size: 0.7em;
+    margin-left: -7px;
+}
+
+.bouton-custom {
+    border-radius: 0!important;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width: 500px) {
+    #navigation {
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .filtre {
+       padding-right: 10px;
+        
+    }
+    
+    #navigation{
+        margin:0;
+    }
+}
+.margin-top {
+    margin-top:15px;
+}
